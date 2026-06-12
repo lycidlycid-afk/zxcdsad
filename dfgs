@@ -6,6 +6,7 @@ local Workspace = game:GetService("Workspace")
 local Players = game:GetService("Players")
 local Player = Players.LocalPlayer
 local ContentProvider = game:GetService("ContentProvider")
+
 local CoreGui = (gethui and gethui()) or game:GetService("CoreGui")
 local GuiName = "Clover Notifier"
 
@@ -18,5 +19,5 @@ ScreenGui.Name = GuiName
 ScreenGui.Parent = CoreGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 ScreenGui.ResetOnSpawn = false
+
 local function playClick() end
-     
