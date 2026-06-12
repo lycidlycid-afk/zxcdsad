@@ -20,4 +20,28 @@ ScreenGui.Parent = CoreGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 ScreenGui.ResetOnSpawn = false
 
-local function playClick() end
+local function playClick() end.                                  local C = {
+    BG = Color3.fromRGB(0, 0, 0),
+    CARD = Color3.fromRGB(10, 10, 10),
+    CARD_ON = Color3.fromRGB(20, 20, 20),
+
+    ON = Color3.fromRGB(35, 35, 35),
+    OFF = Color3.fromRGB(15, 15, 15),
+
+    BORD = Color3.fromRGB(40, 40, 40),
+    BORD_ON = Color3.fromRGB(80, 80, 80),
+
+    TEXT = Color3.fromRGB(255, 255, 255),
+    SUB = Color3.fromRGB(150, 150, 150),
+
+    ACCENT = Color3.fromRGB(255, 255, 255),
+    TITLE = Color3.fromRGB(255, 255, 255),
+
+    GOOD = Color3.fromRGB(0, 255, 0),
+    WARN = Color3.fromRGB(255, 255, 0),
+    BAD = Color3.fromRGB(255, 70, 70),
+
+    ACTIVE = Color3.fromRGB(25, 25, 25),
+    BORDER = Color3.fromRGB(60, 60, 60),
+    DOT_ON = Color3.fromRGB(255, 255, 255),
+}
