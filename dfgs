@@ -44,4 +44,9 @@ local function playClick() end.                                  local C = {
     ACTIVE = Color3.fromRGB(25, 25, 25),
     BORDER = Color3.fromRGB(60, 60, 60),
     DOT_ON = Color3.fromRGB(255, 255, 255),
-}
+
+local ACCENT = Color3.fromRGB(10, 10, 10)
+local ACCENT_HOVER = Color3.fromRGB(25, 25, 25)
+local ACCENT_TEXT = Color3.fromRGB(255, 255, 255)
+local BG_COLOR = Color3.fromRGB(0, 0, 0)
+local BG_TRANSPARENCY = 0
