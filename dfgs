@@ -18,4 +18,4 @@ ScreenGui.Name = GuiName
 ScreenGui.Parent = CoreGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 ScreenGui.ResetOnSpawn = false
-
+local function playClick() end
