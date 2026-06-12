@@ -20,3 +20,4 @@ ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 ScreenGui.ResetOnSpawn = false
 local function playClick() end
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)     
