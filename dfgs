@@ -6,4 +6,16 @@ local Workspace = game:GetService("Workspace")
 local Players = game:GetService("Players")
 local Player = Players.LocalPlayer
 local ContentProvider = game:GetService("ContentProvider")
+local CoreGui = (gethui and gethui()) or game:GetService("CoreGui")
+local GuiName = "Clover Notifier"
+
+for _, v in pairs(CoreGui:GetChildren()) do
+ if v.Name == GuiName then v:Destroy() end
+end
+
+local ScreenGui = Instance.new("ScreenGui")
+ScreenGui.Name = GuiName
+ScreenGui.Parent = CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
 
